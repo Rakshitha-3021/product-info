@@ -1,0 +1,74 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #ffffff;
+
+// Mixins
+@mixin button-styles {
+  background-color: $primary-color;
+  border: none;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Global styles
+body {
+  background-color: #f0f0f0;
+}
+
+// Navbar
+.navbar {
+  background-color: $primary-color;
+  color: $secondary-color;
+
+  .nav-link {
+    color: $secondary-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+// Container
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .card {
+    background-color: $secondary-color;
+  }
+}
+
+// Form
+.form-group {
+  margin-bottom: 20px;
+
+  label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+}
+
+// Button
+.btn-primary {
+  @include button-styles;
+}
+
+// Review section
+#reviews {
+  .card {
+    margin-bottom: 20px;
+    background-color: $secondary-color;
+  }
+}
+
+// Question & Answer
