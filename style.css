@@ -1,0 +1,49 @@
+
+
+
+
+.header {
+	width:100%;
+	height:200px;
+	background-color:teal;
+	text-allign:left;
+h5 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 25px;
+  color: red;
+}
+
+/* Adjust the container padding */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style form input and textarea */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Style submit button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
